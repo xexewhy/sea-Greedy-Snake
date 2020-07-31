@@ -19,5 +19,5 @@
 
 ## 项目的基本结构
 
-![](./picture.png)
+![](https://github.com/xexewhy/sea-Greedy-Snake/blob/master/picture.png)
 
