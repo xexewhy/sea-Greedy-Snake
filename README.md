@@ -19,5 +19,5 @@
 
 ## 项目的基本结构
 
-![](https://github.com/xexewhy/sea-Greedy-Snake/blob/master/picture.png)
+![image](https://github.com/xexewhy/sea-Greedy-Snake/blob/master/picture.png)
 
