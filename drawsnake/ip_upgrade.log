@@ -1,0 +1,100 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul  1 11:37:09 2020
+| Host         : LAPTOP-B7RS88TA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'rgb2dvi_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of rgb2dvi_0 (digilentinc.com:ip:rgb2dvi:1.2 (Rev. 7)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul  1 11:37:08 2020
+| Host         : LAPTOP-B7RS88TA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of clk_wiz_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul  1 11:37:06 2020
+| Host         : LAPTOP-B7RS88TA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Wave_Ram'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Wave_Ram (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul  1 11:37:02 2020
+| Host         : LAPTOP-B7RS88TA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Driver_HDMI_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Driver_HDMI_0 (xilinx.com:user:Driver_HDMI:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul  1 11:37:01 2020
+| Host         : LAPTOP-B7RS88TA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25ftgb196-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Clk_Division_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Clk_Division_0 (xilinx.com:user:Clk_Division:1.0 (Rev. 2)) to Vivado generation flows.
+

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="clk_wiz_0_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="rgb2dvi_0_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/rgb2dvi_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Driver_HDMI_0_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/Driver_HDMI_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="apple_R_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/apple_R_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="apple_B_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/apple_B_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="apple_G_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/apple_G_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="snake_R_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/snake_R_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="snake_B_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/snake_B_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="snake_G_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/snake_G_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="body_R_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/body_R_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="body_B_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/body_B_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="body_G_synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/body_G_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="clk_wiz_0_synth_1"/>
+		<Parent Id="rgb2dvi_0_synth_1"/>
+		<Parent Id="Driver_HDMI_0_synth_1"/>
+		<Parent Id="apple_R_synth_1"/>
+		<Parent Id="apple_B_synth_1"/>
+		<Parent Id="apple_G_synth_1"/>
+		<Parent Id="snake_R_synth_1"/>
+		<Parent Id="snake_B_synth_1"/>
+		<Parent Id="snake_G_synth_1"/>
+		<Parent Id="body_R_synth_1"/>
+		<Parent Id="body_B_synth_1"/>
+		<Parent Id="body_G_synth_1"/>
+	</Run>
+	<Run Id="impl_2" LaunchDir="C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/impl_2" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="clk_wiz_0_synth_1"/>
+		<Parent Id="rgb2dvi_0_synth_1"/>
+		<Parent Id="Driver_HDMI_0_synth_1"/>
+		<Parent Id="apple_R_synth_1"/>
+		<Parent Id="apple_B_synth_1"/>
+		<Parent Id="apple_G_synth_1"/>
+		<Parent Id="snake_R_synth_1"/>
+		<Parent Id="snake_B_synth_1"/>
+		<Parent Id="snake_G_synth_1"/>
+		<Parent Id="body_R_synth_1"/>
+		<Parent Id="body_B_synth_1"/>
+		<Parent Id="body_G_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

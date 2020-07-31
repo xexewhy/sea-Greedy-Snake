@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jul 31 16:46:18 2020
+# Process ID: 14864
+# Current directory: C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/body_B_synth_1
+# Command line: vivado.exe -log body_B.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source body_B.tcl
+# Log file: C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/body_B_synth_1/body_B.vds
+# Journal file: C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart_final/drawsnake/Lab_13.runs/body_B_synth_1\vivado.jou
+#-----------------------------------------------------------
+source body_B.tcl -notrace

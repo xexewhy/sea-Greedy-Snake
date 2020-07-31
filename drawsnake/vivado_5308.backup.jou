@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jul 31 12:59:08 2020
+# Process ID: 5308
+# Current directory: C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11268 C:\Users\DELL\Desktop\xilinx_uart\xilinx_uart\drawsnake\Lab_13.xpr
+# Log file: C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake/vivado.log
+# Journal file: C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake/Lab_13.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run clk_wiz_0_synth_1
+reset_run rgb2dvi_0_synth_1
+reset_run Driver_HDMI_0_synth_1
+reset_run apple_R_synth_1
+reset_run apple_B_synth_1
+reset_run apple_G_synth_1
+reset_run snake_R_synth_1
+reset_run snake_B_synth_1
+reset_run snake_G_synth_1
+reset_run body_R_synth_1
+reset_run body_B_synth_1
+reset_run body_G_synth_1
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake/Lab_13.runs/impl_2/Lab_13.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake/Lab_13.runs/impl_2/Lab_13.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake/Lab_13.runs/impl_2/Lab_13.bit} [get_hw_devices xc7s15_0]
+current_hw_device [get_hw_devices xc7s15_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake/Lab_13.runs/impl_2/Lab_13.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s15_0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/xilinx_uart/xilinx_uart/drawsnake/Lab_13.runs/impl_2/Lab_13.bit} [get_hw_devices xc7s15_0]
+program_hw_devices [get_hw_devices xc7s15_0]
+refresh_hw_device [lindex [get_hw_devices xc7s15_0] 0]
+close_hw

@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Jul 29 17:41:16 2020
+# Process ID: 3944
+# Current directory: C:/Users/13553/Desktop/xilinx_pro/drawsnake
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5116 C:\Users\13553\Desktop\xilinx_pro\drawsnake\Lab_13.xpr
+# Log file: C:/Users/13553/Desktop/xilinx_pro/drawsnake/vivado.log
+# Journal file: C:/Users/13553/Desktop/xilinx_pro/drawsnake\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/13553/Desktop/xilinx_pro/drawsnake/Lab_13.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/13553/Desktop/xilinx_pro/matlab/SEU_Picture_B_Rom.coe] -no_script -reset -force -quiet
+remove_files  C:/Users/13553/Desktop/xilinx_pro/matlab/SEU_Picture_B_Rom.coe
+export_ip_user_files -of_objects  [get_files C:/Users/13553/Desktop/xilinx_pro/matlab/SEU_Picture_G_Rom.coe] -no_script -reset -force -quiet
+remove_files  C:/Users/13553/Desktop/xilinx_pro/matlab/SEU_Picture_G_Rom.coe
+export_ip_user_files -of_objects  [get_files C:/Users/13553/Desktop/xilinx_pro/matlab/SEU_Picture_R_Rom.coe] -no_script -reset -force -quiet
+remove_files  C:/Users/13553/Desktop/xilinx_pro/matlab/SEU_Picture_R_Rom.coe
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/13553/Desktop/xilinx_pro/drawsnake/Lab_13.runs/impl_1/Lab_13.bit} [get_hw_devices xc7s25_0]
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/13553/Desktop/xilinx_pro/drawsnake/Lab_13.runs/impl_1/Lab_13.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+close_hw

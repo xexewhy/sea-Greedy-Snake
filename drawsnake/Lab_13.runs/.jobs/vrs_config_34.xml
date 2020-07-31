@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="apple_G_synth_1" LaunchDir="C:/Users/13553/Desktop/xilinx_pro/drawsnake/Lab_13.runs/apple_G_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
